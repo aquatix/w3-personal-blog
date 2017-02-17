@@ -24,7 +24,7 @@
 {% block content_container %}
 <div class="single-main">
 
-    <div class="col-md-9 single-grid">
+    <div class="col-md-9 single-grid" style="background-color: #fff;">
 
         <header>
             {% include 'article_infos.html' %}
@@ -35,7 +35,7 @@
 
             {% if SHARETHIS_PUB_KEY %}
             <div class="sharethis-top">
-                <span class='st_vkontakte_hcount' displayText='ВКонтакте'></span>
+                {#<span class='st_vkontakte_hcount' displayText='ВКонтакте'></span>#}
                 <span class='st_facebook_hcount' displayText='Facebook'></span>
                 <span class='st_twitter_hcount' displayText='Tweet'></span>
             </div>
