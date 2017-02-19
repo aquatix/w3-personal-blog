@@ -124,7 +124,6 @@ color:#00aeff;
 }
 /*----*/
 .content,.about-content,.contact-content,.single{
-border-top:1px solid #d2d2d2;
 border-bottom:1px solid #d2d2d2;
 }
 .content-main {
@@ -216,6 +215,11 @@ color:#00aeff;
         border-top: 1px solid #d2d2d2;
         padding-top: .5em;
     }
+
+.content-block
+{
+    background-color: #FFF;
+}
 
 .single-grid p a, .single-grid li a {
   color: #626465;
